@@ -137,9 +137,9 @@ footer {
     margin-bottom: 20px;
 }
 
-.footer-left h2 {
+.footer-left h3 {
     color: #a3ff6b;
-    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .footer-center h3,
@@ -274,7 +274,7 @@ nav a.active {
 }
 
 .menu-card p {
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 98%);
     font-size: 15px;
 }
 
@@ -282,7 +282,7 @@ nav a.active {
     display: block;
     margin-top: 8px;
     font-size: 13px;
-    color: #666;
+    color: #ffffff;
 }
 
 .menu-category {
@@ -290,3 +290,91 @@ nav a.active {
     transform: translateY(0);
 }
 
+/* Contact Page Modern UI */
+.contact-wrapper {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.contact-layout {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-card,
+.hours-card {
+    background: #030303;
+    padding: 35px 40px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.08);
+    width: 420px;
+    animation: fadeUp 0.6s ease-out;
+}
+
+.contact-card h2,
+.hours-card h2 {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.icon-circle {
+    width: 48px;
+    height: 48px;
+    background: #16a34a; /* Green Brand Color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.hours-card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .contact-card,
+    .hours-card {
+        width: 100%;
+        padding: 30px 25px;
+    }
+    .contact-header h1 {
+        font-size: 2.4rem;
+    }
+}
