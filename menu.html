@@ -3,36 +3,42 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Menu - Hope Restaurant</title>
+    <title>Menu — Hope Restaurant | Full Menu with Prices</title>
+    <meta name="description" content="Explore the full menu at Hope Restaurant — from BBQ, Pakistani Karahi, Chinese Gravy, Soups, Platters, and more. View all dishes and prices.">
 
     <link rel="icon" type="image/png" href="logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
+<header id="main-header">
     <div class="logo">HOPE RESTAURANT</div>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html" class="active">Menu</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" class="nav-btn" id="nav-home">Home</a>
+        <a href="menu.html" class="active nav-btn" id="nav-menu">Menu</a>
+        <a href="about.html" class="nav-btn" id="nav-about">About Us</a>
+        <a href="contact.html" class="nav-btn" id="nav-contact">Contact</a>
     </nav>
 </header>
 
 <main class="menu-page">
     <h1 class="menu-title">Our Menu</h1>
+    <p class="menu-subtitle">Fresh Ingredients · Authentic Recipes · Premium Experience</p>
 
     <!-- ========== CATEGORY: SOUP ========== -->
     <section class="menu-category">
         <h2>Soup</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Special Soup</h3><p>Full: Rs 1200 — Half: Rs 650</p></div>
-            <div class="menu-card"><h3>Hot & Sour Soup</h3><p>Full: Rs 1100 — Half: Rs 580</p></div>
+            <div class="menu-card"><h3>Hot &amp; Sour Soup</h3><p>Full: Rs 1100 — Half: Rs 580</p></div>
             <div class="menu-card"><h3>Chicken Corn Soup</h3><p>Full: Rs 1100 — Half: Rs 580</p></div>
             <div class="menu-card"><h3>Chicken Vegetable Soup</h3><p>Full: Rs 900 — Half: Rs 500</p></div>
-
         </div>
     </section>
 
@@ -40,11 +46,9 @@
     <section class="menu-category">
         <h2>Seafood</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>French Fries</h3><p>Rs 380</p></div>
             <div class="menu-card"><h3>Finger Fish</h3><p>Rs 1690</p></div>
             <div class="menu-card"><h3>Dumra Fish</h3><p>Rs 1690</p></div>
-
         </div>
     </section>
 
@@ -52,10 +56,8 @@
     <section class="menu-category">
         <h2>Chowmein</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Special Chowmein</h3><p>Full: Rs 990 — Half: Rs 580</p></div>
             <div class="menu-card"><h3>Chicken Chowmein</h3><p>Full: Rs 900 — Half: Rs 550</p></div>
-
         </div>
     </section>
 
@@ -63,7 +65,6 @@
     <section class="menu-category">
         <h2>Rice</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Special Rice</h3><p>Full: Rs 1190 — Half: Rs 680</p></div>
             <div class="menu-card"><h3>Chicken Fried Rice</h3><p>Full: Rs 1190 — Half: Rs 680</p></div>
             <div class="menu-card"><h3>Chicken Masala Rice</h3><p>Full: Rs 1190 — Half: Rs 680</p></div>
@@ -71,7 +72,6 @@
             <div class="menu-card"><h3>Vegetable Rice</h3><p>Rs 900</p></div>
             <div class="menu-card"><h3>Afghani Pulao Beef</h3><p>Rs 1190</p></div>
             <div class="menu-card"><h3>Chicken Biryani</h3><p>Full: Rs 980 — Half: Rs 680</p></div>
-
         </div>
     </section>
 
@@ -79,13 +79,11 @@
     <section class="menu-category">
         <h2>Chinese Gravy</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Chicken Manchurian</h3><p>Rs 1290</p></div>
             <div class="menu-card"><h3>Chicken Almond</h3><p>Rs 1290</p></div>
             <div class="menu-card"><h3>Chicken Chilli with Onion</h3><p>Rs 1290</p></div>
             <div class="menu-card"><h3>Chicken Black Pepper</h3><p>Rs 1290</p></div>
             <div class="menu-card"><h3>Chicken Pineapple with Cherry</h3><p>Rs 1290</p></div>
-
         </div>
     </section>
 
@@ -93,7 +91,6 @@
     <section class="menu-category">
         <h2>Mutton Karahi</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Special Mutton Karahi</h3><p>Full: Rs 3890 — Half: Rs 1790</p></div>
             <div class="menu-card"><h3>Mutton Makhani Karahi</h3><p>Full: Rs 3790 — Half: Rs 1790</p></div>
             <div class="menu-card"><h3>Mutton Peshawari Karahi</h3><p>Full: Rs 3790 — Half: Rs 1790</p></div>
@@ -101,7 +98,6 @@
             <div class="menu-card"><h3>Mutton Karahi</h3><p>Full: Rs 3690 — Half: Rs 1680</p></div>
             <div class="menu-card"><h3>Mutton Zaffrani Karahi</h3><p>Full: Rs 3890 — Half: Rs 1780</p></div>
             <div class="menu-card"><h3>Mutton Namkeen Rosh</h3><p>Rs 1200</p></div>
-
         </div>
     </section>
 
@@ -109,7 +105,6 @@
     <section class="menu-category">
         <h2>Pakistani Cuisine</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Mutton Hari Mirch</h3><p>Rs 1700</p></div>
             <div class="menu-card"><h3>Mutton Handi</h3><p>Full: Rs 2500 — Half: Rs 1590</p></div>
             <div class="menu-card"><h3>Mutton White Handi</h3><p>Full: Rs 2650 — Half: Rs 1680</p></div>
@@ -121,7 +116,6 @@
             <div class="menu-card"><h3>Chicken Achari Handi</h3><p>Full: Rs 1700 — Half: Rs 900</p></div>
             <div class="menu-card"><h3>Mix Vegetable</h3><p>Rs 500</p></div>
             <div class="menu-card"><h3>Daal Shahi Mash</h3><p>Rs 450</p></div>
-
         </div>
     </section>
 
@@ -129,13 +123,11 @@
     <section class="menu-category">
         <h2>Chicken Karahi</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Special Chicken Karahi</h3><p>Full: Rs 1890 — Half: Rs 980</p></div>
             <div class="menu-card"><h3>Chicken Peshawari Karahi</h3><p>Full: Rs 1790 — Half: Rs 980</p></div>
             <div class="menu-card"><h3>Chicken White Karahi</h3><p>Full: Rs 1790 — Half: Rs 980</p></div>
             <div class="menu-card"><h3>Chicken Makhani Karahi</h3><p>Full: Rs 1790 — Half: Rs 980</p></div>
             <div class="menu-card"><h3>Chicken Zaffrani Karahi</h3><p>Full: Rs 1700 — Half: Rs 950</p></div>
-
         </div>
     </section>
 
@@ -143,12 +135,10 @@
     <section class="menu-category">
         <h2>Desi Karahi</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Desi Murgh Karahi</h3><p>Full: Rs 3600 — Half: Rs 1890</p></div>
             <div class="menu-card"><h3>Desi Batair Karahi</h3><p>Rs 1900</p></div>
             <div class="menu-card"><h3>Mutton Kunna</h3><p>Rs 4080</p></div>
             <div class="menu-card"><h3>Beef Karahi</h3><p>Full: Rs 2400 — Half: Rs 1300</p></div>
-
         </div>
     </section>
 
@@ -156,7 +146,6 @@
     <section class="menu-category">
         <h2>B.B.Q.</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Chicken Cheese Kabab</h3><p>Rs 1200 (4pc)</p></div>
             <div class="menu-card"><h3>Chicken Reshmi Kabab</h3><p>Rs 1190 (4pc)</p></div>
             <div class="menu-card"><h3>Chicken Kabab</h3><p>Rs 1090 (4pc)</p></div>
@@ -167,7 +156,6 @@
             <div class="menu-card"><h3>Tikka Piece Leg</h3><p>Rs 400 (1pc)</p></div>
             <div class="menu-card"><h3>Tikka Piece Chest</h3><p>Rs 500 (1pc)</p></div>
             <div class="menu-card"><h3>Lahore Fish Grill</h3><p>Rs 1900</p></div>
-
         </div>
     </section>
 
@@ -175,7 +163,6 @@
     <section class="menu-category">
         <h2>Salad</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Special Salad Platter</h3><p>Rs 750</p></div>
             <div class="menu-card"><h3>Fruit Salad</h3><p>Rs 650</p></div>
             <div class="menu-card"><h3>Russian Salad</h3><p>Rs 500</p></div>
@@ -183,7 +170,6 @@
             <div class="menu-card"><h3>Kachumer Salad</h3><p>Rs 120</p></div>
             <div class="menu-card"><h3>Fresh Salad</h3><p>Rs 70</p></div>
             <div class="menu-card"><h3>Raita</h3><p>Rs 120</p></div>
-
         </div>
     </section>
 
@@ -191,7 +177,6 @@
     <section class="menu-category">
         <h2>Tandoor</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Per Head Roti</h3><p>Rs 100</p></div>
             <div class="menu-card"><h3>Roghni Naan</h3><p>Rs 110</p></div>
             <div class="menu-card"><h3>Garlic Naan</h3><p>Rs 120</p></div>
@@ -199,7 +184,6 @@
             <div class="menu-card"><h3>Sada Naan</h3><p>Rs 80</p></div>
             <div class="menu-card"><h3>Paratha</h3><p>Rs 110</p></div>
             <div class="menu-card"><h3>Sada Roti</h3><p>Rs 20</p></div>
-
         </div>
     </section>
 
@@ -207,28 +191,24 @@
     <section class="menu-category">
         <h2>Cold Drinks</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Fresh Lime</h3><p>Rs 120</p></div>
             <div class="menu-card"><h3>Cold Drink Regular</h3><p>Rs 80</p></div>
             <div class="menu-card"><h3>Diet Cold Drink</h3><p>Rs 180</p></div>
             <div class="menu-card"><h3>Mineral Water</h3><p>Rs 120</p></div>
             <div class="menu-card"><h3>Mint Lassi Jug</h3><p>Rs 500</p></div>
             <div class="menu-card"><h3>Mint Margarita</h3><p>Rs 260</p></div>
-
         </div>
     </section>
 
     <!-- ========== CATEGORY: COFFEE + TEA ========== -->
     <section class="menu-category">
-        <h2>Coffee & Tea</h2>
+        <h2>Coffee &amp; Tea</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Cold Coffee</h3><p>Rs 200</p></div>
             <div class="menu-card"><h3>Cream Coffee</h3><p>Rs 180</p></div>
             <div class="menu-card"><h3>Green Tea</h3><p>Rs 100</p></div>
             <div class="menu-card"><h3>Tea</h3><p>Rs 100</p></div>
             <div class="menu-card"><h3>Shakar Tea</h3><p>Rs 120</p></div>
-
         </div>
     </section>
 
@@ -236,12 +216,10 @@
     <section class="menu-category">
         <h2>Ice Cream</h2>
         <div class="menu-grid">
-
             <div class="menu-card"><h3>Milk Bowl Special</h3><p>Rs 800</p></div>
             <div class="menu-card"><h3>Qulfa Ice Cream</h3><p>Rs 350</p></div>
             <div class="menu-card"><h3>Vanilla Ice Cream</h3><p>Rs 350</p></div>
             <div class="menu-card"><h3>Pista Ice Cream</h3><p>Rs 350</p></div>
-
         </div>
     </section>
 
@@ -249,7 +227,6 @@
     <section class="menu-category">
         <h2>Special Platters</h2>
         <div class="menu-grid">
-
             <div class="menu-card">
                 <h3>2 Person Special Platter</h3>
                 <p>Rs 2190</p>
@@ -267,7 +244,6 @@
                 <p>Rs 6000</p>
                 <small>Includes: Chicken Karahi (Half), Beef Karahi (Full), Chicken Biryani, Leg Piece (1), Qalmi Tikka (Half), Tikka Boti (Half), Chicken Kabab (6), Fresh Lime, 6 Roti, 5 Garlic Naan, 3 Raita, Salad</small>
             </div>
-
         </div>
     </section>
 
@@ -296,5 +272,6 @@
     </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
