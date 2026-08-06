@@ -1,1 +1,14 @@
+User-agent: *
 
+Allow: /
+
+Allow: /styles.css
+Allow: /script.js
+Allow: /logo.png
+Allow: /BG.jpg
+
+Disallow: /404.html
+
+Host: https://hope-restaurant.vercel.app
+
+Sitemap: https://hope-restaurant.vercel.app/sitemap.xml
